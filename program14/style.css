@@ -1,0 +1,13 @@
+h1 {
+	color: purple;
+	font-size: 30px;
+	font-weight:bold;
+        text-align: center;
+}
+
+p {   
+	color: green;
+        font-style: italic;
+	font-size: 20px;
+}
+

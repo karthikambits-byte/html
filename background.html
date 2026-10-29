@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Simple Background Changer</title>
+</head>
+<body>
+<button onclick="changeColor()">Change Color</button>
+<button onclick="changeBackgroundImage()">Change Background Image</button>
+<button onclick="resetBackground()"> Resume to Normal</button>
+<script>
+ const orginalColor = "lavender";
+ const orginalImage="";
+ 
+function changeColor(){
+ document.body.style.backgroundImage="";
+ document.body.style.backgroundColor="blue";
+}
+
+function changeBackgroundimage(){
+ document.body.style.backgroundImage="url(https://i.pinimg.com/originals/7e/04/49/7e0449656995369dea3809f2afa60ad8.jpg);
+ document.body.style.backgroundColor="";
+}
+function resetBackground(){
+document.body.style.backgroundColor=orginalColor;
+document.body.style.backgroundImage=orginalImage;
+
+}
+</script>
+</body>
+</html>
+
+
+

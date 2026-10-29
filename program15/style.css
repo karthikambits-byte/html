@@ -1,0 +1,31 @@
+body{
+      background color: MintCream;
+      font family:"Georgia", serif;
+      margin:30px;
+
+h1 {
+	color: darkblue;
+	font-size: 30px;
+        text-align: center;
+}
+h2 {
+	color: #1b3b2b;
+	font-size: 30px;
+        
+}
+
+p {   
+	color: Maroon;
+        font-style: italic;
+	font-size: 18px;
+        padding:10px;
+}
+ul {
+        border:2px groove #8c6d58;
+        padding:30px;
+        margin:30px;
+        background-color:linen;
+}
+li {
+      padding:5px;
+}
